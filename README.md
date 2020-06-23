@@ -13,8 +13,19 @@ On Mac OS X, install dependencies with [homebrew](https://brew.sh)
     # used to ask for pygtk as well
     brew install harfbuzz cairo pango imagemagick
 
-Install python dependencies,
+Releases are available on PyPI and can be installed with pip.
 
+    pip install notofonttools
+
+Use the -U, --upgrade option to update nototools and its dependencies to the newest available release:
+
+    pip install -U notofonttools
+
+Alternatively, you can download the git repository and install from source:
+
+    git clone https://github.com/googlefonts/nototools
+    cd nototools
+    # Install python dependencies
     pip install -r requirements.txt
 
 Then install nototools.  Since nototools changes frequently, installing using 'editable' mode is recommended:
